@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0E2A47;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand img {
+  width: 45px;
+}
+
+.brand h2 {
+  color: #E3B04B;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #F7F4ED;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(14,42,71,0.7), rgba(14,42,71,0.7)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #E3B04B;
+  color: #0E2A47;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.packages {
+  background: #f5f5f5;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.book {
+  display: inline-block;
+  background: #E3B04B;
+  color: #0E2A47;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer {
+  background: #0E2A47;
+  color: white;
+  padding: 15px;
+}
+.brand {
+  padding-left: 60px;
+  background-image: url('https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/airplane.svg');
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
